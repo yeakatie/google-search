@@ -1,5 +1,98 @@
 /* My Styles */
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-color: steelblue;
+	background: #202124;
+}
+
+.navbar a {
+    color: #bdc1c6;
+    padding: 5px;
+    margin: 0px 5px;
+    font-size: 13px;
+    line-height: 27px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    text-decoration: none;
+}
+
+.navbar a:hover, 
+.navbar a:active {
+    text-decoration: underline;
+}
+
+.signin__link {
+    background: #202124;
+    border: 1px solid #bdc1c6;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.apps__icon,
+.signin__btn {
+    text-decoration: none !important;
+}
+
+.navbar {
+    display: flex;
+    background: #202124;
+    padding: 6px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__left {
+    float: left;
+    margin-left: 15px;
+}
+
+.navbar__right {
+    float: right;
+    margin-right: 15px;
+    white-space: nowrap;
+}
+
+svg {
+    color: rgba(255,255,255,0.87);
+}
+
+
+.google_apps {
+    fill: currentColor;
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+}
+
+.google_apps:hover {
+    background: rgba(255,255,255,0.12);
+    border-radius: 50%;
+}
+
+.signin__btn {
+    color: #202124 !important;
+    background: #8ab4f8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 9px 15px;
+    min-width: 80px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.signin__btn:hover {
+    background: #f8fbff;
+    border-color: #cce0fc;
 }
