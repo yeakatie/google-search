@@ -1,3 +1,3 @@
-# Daily Practice #2: Google Search
+# Google Search
 - Webpage practice
 - Replicating UI
